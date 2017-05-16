@@ -3483,6 +3483,31 @@ exports.commands = {
 	},
 
 	/*********************************************************
+	 * Fleur's Gifs
+	 *********************************************************/
+	
+	hmm: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	return this.sendReply('|raw|<center><img width="300" height="169" src="http://imgur.com/5pPDucQ"></center>');
+	},
+	kicks: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	return this.sendReply('|raw|<center><img width="300" height="169" src="http://imgur.com/rL3brvH"></center>');
+	},
+	nekochan: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	return this.sendReply('|raw|<center><img width="300" height="169" src="http://imgur.com/er6fBG0"></center>');
+	},
+	nono: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	return this.sendReply('|raw|<center><img width="300" height="169" src="http://imgur.com/NbAHKSD"></center>');
+	},
+ 	dafuck: function(target, room, user) {
+	 	if (!this.canBroadcast()) return;
+	 	return this.sendReply('|raw|<center><img width="300" height="169" src="http://imgur.com/cVhyNfL"></center>');
+	},
+	
+	/*********************************************************
 	 * Help commands
 	 *********************************************************/
 
